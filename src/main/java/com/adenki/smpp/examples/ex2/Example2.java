@@ -1,11 +1,11 @@
-package ie.omk.smpp.examples.ex2;
+package com.adenki.smpp.examples.ex2;
 
-import ie.omk.smpp.Session;
-import ie.omk.smpp.SessionState;
-import ie.omk.smpp.event.SMPPEventAdapter;
-import ie.omk.smpp.examples.ExampleBase;
-import ie.omk.smpp.message.BindReceiver;
-import ie.omk.smpp.util.AutoResponder;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.SessionState;
+import com.adenki.smpp.event.SMPPEventAdapter;
+import com.adenki.smpp.examples.ExampleBase;
+import com.adenki.smpp.message.BindReceiver;
+import com.adenki.smpp.util.AutoResponder;
 
 import java.io.IOException;
 

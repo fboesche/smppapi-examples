@@ -1,4 +1,4 @@
-package ie.omk.smpp.examples;
+package com.adenki.smpp.examples;
 
 import java.beans.IntrospectionException;
 import java.beans.PropertyDescriptor;
@@ -79,8 +79,8 @@ public class ExampleRunner {
         if (name == null) {
             return null;
         }
-        if (!name.startsWith("ie.omk")) {
-            name = "ie.omk.smpp.examples." + name;
+        if (!name.startsWith("com.adenki")) {
+            name = "com.adenki.smpp.examples." + name;
         }
         Class<?> type = Class.forName(name);
         return (SmppapiExample) type.newInstance();

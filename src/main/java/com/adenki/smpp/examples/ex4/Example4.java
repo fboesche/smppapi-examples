@@ -1,18 +1,18 @@
-package ie.omk.smpp.examples.ex4;
+package com.adenki.smpp.examples.ex4;
 
-import ie.omk.smpp.Address;
-import ie.omk.smpp.Session;
-import ie.omk.smpp.encoding.DefaultAlphabetEncoding;
-import ie.omk.smpp.examples.ExampleBase;
-import ie.omk.smpp.message.Bind;
-import ie.omk.smpp.message.BindResp;
-import ie.omk.smpp.message.BindTransmitter;
-import ie.omk.smpp.message.SubmitSM;
-import ie.omk.smpp.message.SubmitSMResp;
-import ie.omk.smpp.message.Unbind;
-import ie.omk.smpp.message.UnbindResp;
-import ie.omk.smpp.util.AutoResponder;
-import ie.omk.smpp.util.SyncWrapper;
+import com.adenki.smpp.Address;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.encoding.DefaultAlphabetEncoding;
+import com.adenki.smpp.examples.ExampleBase;
+import com.adenki.smpp.message.Bind;
+import com.adenki.smpp.message.BindResp;
+import com.adenki.smpp.message.BindTransmitter;
+import com.adenki.smpp.message.SubmitSM;
+import com.adenki.smpp.message.SubmitSMResp;
+import com.adenki.smpp.message.Unbind;
+import com.adenki.smpp.message.UnbindResp;
+import com.adenki.smpp.util.AutoResponder;
+import com.adenki.smpp.util.SyncWrapper;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

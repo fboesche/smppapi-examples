@@ -1,19 +1,19 @@
-package ie.omk.smpp.examples.ex3;
+package com.adenki.smpp.examples.ex3;
 
-import ie.omk.smpp.Address;
-import ie.omk.smpp.Session;
-import ie.omk.smpp.encoding.AlphabetEncoding;
-import ie.omk.smpp.encoding.DefaultAlphabetEncoding;
-import ie.omk.smpp.encoding.Latin1Encoding;
-import ie.omk.smpp.event.SMPPEvent;
-import ie.omk.smpp.event.SessionObserver;
-import ie.omk.smpp.examples.ExampleBase;
-import ie.omk.smpp.message.BindTransmitter;
-import ie.omk.smpp.message.CommandId;
-import ie.omk.smpp.message.EnquireLink;
-import ie.omk.smpp.message.SMPPPacket;
-import ie.omk.smpp.message.SubmitSM;
-import ie.omk.smpp.util.AutoResponder;
+import com.adenki.smpp.Address;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.encoding.AlphabetEncoding;
+import com.adenki.smpp.encoding.DefaultAlphabetEncoding;
+import com.adenki.smpp.encoding.Latin1Encoding;
+import com.adenki.smpp.event.SMPPEvent;
+import com.adenki.smpp.event.SessionObserver;
+import com.adenki.smpp.examples.ExampleBase;
+import com.adenki.smpp.message.BindTransmitter;
+import com.adenki.smpp.message.CommandId;
+import com.adenki.smpp.message.EnquireLink;
+import com.adenki.smpp.message.SMPPPacket;
+import com.adenki.smpp.message.SubmitSM;
+import com.adenki.smpp.util.AutoResponder;
 
 import java.io.IOException;
 

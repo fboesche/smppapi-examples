@@ -1,9 +1,9 @@
-package ie.omk.smpp.examples;
+package com.adenki.smpp.examples;
 
-import ie.omk.smpp.Session;
-import ie.omk.smpp.message.Bind;
-import ie.omk.smpp.message.SMPPPacket;
-import ie.omk.smpp.util.APIMessages;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.message.Bind;
+import com.adenki.smpp.message.SMPPPacket;
+import com.adenki.smpp.util.APIMessages;
 
 import java.io.IOException;
 import java.net.UnknownHostException;

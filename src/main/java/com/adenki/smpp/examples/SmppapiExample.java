@@ -1,4 +1,4 @@
-package ie.omk.smpp.examples;
+package com.adenki.smpp.examples;
 
 public interface SmppapiExample {
     void run() throws Exception;

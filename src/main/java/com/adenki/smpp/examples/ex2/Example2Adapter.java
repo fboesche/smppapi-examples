@@ -1,11 +1,11 @@
-package ie.omk.smpp.examples.ex2;
+package com.adenki.smpp.examples.ex2;
 
-import ie.omk.smpp.Session;
-import ie.omk.smpp.event.SMPPEventAdapter;
-import ie.omk.smpp.message.BindResp;
-import ie.omk.smpp.message.DeliverSM;
-import ie.omk.smpp.message.UnbindResp;
-import ie.omk.smpp.util.APIMessages;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.event.SMPPEventAdapter;
+import com.adenki.smpp.message.BindResp;
+import com.adenki.smpp.message.DeliverSM;
+import com.adenki.smpp.message.UnbindResp;
+import com.adenki.smpp.util.APIMessages;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

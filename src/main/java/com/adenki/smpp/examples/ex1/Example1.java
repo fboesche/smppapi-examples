@@ -1,19 +1,19 @@
-package ie.omk.smpp.examples.ex1;
+package com.adenki.smpp.examples.ex1;
 
-import ie.omk.smpp.Session;
-import ie.omk.smpp.SessionState;
-import ie.omk.smpp.event.SMPPEvent;
-import ie.omk.smpp.event.SessionObserver;
-import ie.omk.smpp.examples.ExampleBase;
-import ie.omk.smpp.message.BindReceiver;
-import ie.omk.smpp.message.CommandId;
-import ie.omk.smpp.message.DeliverSM;
-import ie.omk.smpp.message.DeliverSMResp;
-import ie.omk.smpp.message.EnquireLink;
-import ie.omk.smpp.message.EnquireLinkResp;
-import ie.omk.smpp.message.SMPPPacket;
-import ie.omk.smpp.message.Unbind;
-import ie.omk.smpp.message.UnbindResp;
+import com.adenki.smpp.Session;
+import com.adenki.smpp.SessionState;
+import com.adenki.smpp.event.SMPPEvent;
+import com.adenki.smpp.event.SessionObserver;
+import com.adenki.smpp.examples.ExampleBase;
+import com.adenki.smpp.message.BindReceiver;
+import com.adenki.smpp.message.CommandId;
+import com.adenki.smpp.message.DeliverSM;
+import com.adenki.smpp.message.DeliverSMResp;
+import com.adenki.smpp.message.EnquireLink;
+import com.adenki.smpp.message.EnquireLinkResp;
+import com.adenki.smpp.message.SMPPPacket;
+import com.adenki.smpp.message.Unbind;
+import com.adenki.smpp.message.UnbindResp;
 
 import java.io.IOException;
 
